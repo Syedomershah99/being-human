@@ -14,15 +14,18 @@ then it checks a draft twice. once for ai tells. once for whether the writing is
 
 i wrote the first version of this post in default assistant voice. it scored 31. it also passed the authorship check, because bland grammar is unremarkable grammar and nothing there looked foreign. only the slop filter caught it. that gap is why there are two.
 
-this version scores 95. the tool named the fix each time, including the em dashes i just put in the links above.
+this version scores 100. it took a few passes, and the tool named the fix each time, including one round of em dashes i'd slipped in without noticing.
 
 runs locally. stdlib python, no dependencies, nothing leaves my machine. MIT.
 
+pip install being-human
+
+it's on the mcp registry too, so it drops into chatgpt, cursor, codex or zed with one line:
+
+uvx being-human mcp
+
 inside-lago, slop-guard, idiolect and writer-persona got here before me. writer-persona's backtest is where the validation idea came from.
 
-repo: github.com/Syedomershah99/being-human
-
-mcp server, works with chatgpt, cursor, codex and zed:
-github.com/Syedomershah99/being-human/tree/main/mcp
+github.com/Syedomershah99/being-human
 
 * written by being-human
