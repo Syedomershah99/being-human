@@ -15,7 +15,7 @@ Claude, ChatGPT, Cursor, Gemini, or anything that accepts a system prompt.
 
 <p align="center">
   <a href="demo/being-human-demo.mp4">
-    <img src="demo/being-human-demo.gif" alt="being-human demo" width="560">
+    <img src="demo/being-human-demo.gif" alt="being-human demo" width="480" height="480">
   </a>
 </p>
 
