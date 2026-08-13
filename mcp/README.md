@@ -62,7 +62,15 @@ makes the voiceprint portable everywhere else.
 
 ## setup
 
-Use the absolute path to `server.py`. Replace `/path/to/being-human` throughout.
+If you installed from PyPI (`pip install being-human`), the command is just
+`being-human-mcp` with no arguments and no path:
+
+```json
+{ "mcpServers": { "being-human": { "command": "being-human-mcp" } } }
+```
+
+From a clone, use the absolute path to `server.py` instead. Replace
+`/path/to/being-human` throughout.
 
 **Claude Code**
 

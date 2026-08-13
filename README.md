@@ -44,6 +44,12 @@ points at the tells, line by line.
 ## quickstart
 
 ```bash
+pip install being-human
+```
+
+Or clone it — the scripts run straight from a checkout with no install step:
+
+```bash
 git clone https://github.com/Syedomershah99/being-human && cd being-human
 
 # 1. harvest what you've already written
@@ -55,6 +61,16 @@ python3 scripts/analyze.py --in .being-human/ --name "Your Name"
 
 # 3. score a draft
 python3 scripts/slopscore.py draft.md --in .being-human/
+```
+
+Installed, the same pipeline is one command per step:
+
+```bash
+being-human learn --name "Your Name"     # harvest + measure, in one go
+being-human check draft.md               # AI tells
+being-human verify draft.md              # is it statistically you?
+being-human export --target chatgpt
+being-human mcp                          # the MCP server on stdio
 ```
 
 No Claude Code history? Point it at anything you've written:
