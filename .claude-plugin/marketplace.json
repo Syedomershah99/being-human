@@ -1,0 +1,14 @@
+{
+  "name": "being-human",
+  "owner": {
+    "name": "Omer",
+    "url": "https://github.com/Syedomershah99"
+  },
+  "plugins": [
+    {
+      "name": "being-human",
+      "source": "./",
+      "description": "Learns your voice from your own prompt history, then writes in it. Portable to any LLM."
+    }
+  ]
+}

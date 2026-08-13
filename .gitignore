@@ -1,0 +1,10 @@
+# Your corpus and voiceprint. This is your writing -- it stays on your machine.
+# The corpus can reconstruct a meaningful portion of your prompt history.
+.being-human/
+*.being-human/
+
+__pycache__/
+*.pyc
+.DS_Store
+.venv/
+venv/

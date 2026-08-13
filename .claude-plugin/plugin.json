@@ -1,0 +1,20 @@
+{
+  "name": "being-human",
+  "version": "0.1.0",
+  "description": "Learns how you actually write from your own prompt history, then makes the model write like that instead of like a press release.",
+  "author": {
+    "name": "Omer",
+    "url": "https://github.com/Syedomershah99"
+  },
+  "homepage": "https://github.com/Syedomershah99/being-human",
+  "repository": "https://github.com/Syedomershah99/being-human",
+  "keywords": [
+    "writing",
+    "voice",
+    "style",
+    "personalization",
+    "stylometry",
+    "ai-detection"
+  ],
+  "license": "MIT"
+}
