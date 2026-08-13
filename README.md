@@ -137,3 +137,5 @@ The claim is the application and the calibration, not the statistics.
 
 MIT. The tell list is [data/slop-lexicon.json](data/slop-lexicon.json). If you
 keep seeing something that isn't in there, send a PR.
+
+<sub>mcp-name: io.github.Syedomershah99/being-human</sub>
