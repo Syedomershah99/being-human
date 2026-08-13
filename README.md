@@ -17,6 +17,13 @@ Local, stdlib Python 3, no dependencies, no network calls.
   </a>
 </p>
 
+<div align="center">
+  <img src="assets/voiceprint.svg" alt="my voiceprint, measured by being-human" width="840">
+</div>
+
+<p align="center"><em>my own writing, measured by this tool. every bar is one real
+sentence. make your own with <code>being-human card</code>.</em></p>
+
 ---
 
 ## quickstart
@@ -28,6 +35,7 @@ being-human learn --name "Your Name"     # harvest your writing, measure it
 being-human check draft.md               # AI tells
 being-human verify draft.md              # is it statistically you?
 being-human export --target chatgpt      # or agents, cursor, system, json
+being-human card                         # draw your voiceprint as a shareable svg
 ```
 
 No Claude Code history? Point it at a ChatGPT export or your own files:

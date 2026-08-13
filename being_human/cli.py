@@ -6,6 +6,7 @@ being-human -- one entry point for the whole pipeline.
     being-human check draft.md        score for AI tells
     being-human verify draft.md       the impostor test: is this statistically you?
     being-human export --target ...   compile for another assistant
+    being-human card                  draw your voiceprint as a shareable svg
     being-human mcp                   run the MCP server on stdio
 
 Each subcommand forwards straight to the module that does the work, so
@@ -23,6 +24,7 @@ SUBCOMMANDS = {
     "slopscore": "slopscore",
     "verify": "verify",
     "export": "export",
+    "card": "card",
     "mcp": "server",
     "server": "server",
 }

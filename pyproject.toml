@@ -7,7 +7,7 @@ build-backend = "hatchling.build"
 
 [project]
 name = "being-human"
-version = "0.1.1"
+version = "0.1.2"
 description = "Learns your writing voice from your own prompt history, then makes the model write like that."
 readme = "README.md"
 license = { text = "MIT" }
