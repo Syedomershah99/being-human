@@ -13,3 +13,11 @@ venv/
 dist/
 build/
 *.egg-info/
+
+# Secrets. .env.example is conventionally a COMMITTED template of placeholder
+# values, so real tokens under that name are a leak waiting to happen. Ignored
+# explicitly here rather than relying on it living inside .being-human/.
+.env
+.env.*
+*.env
+!.env.sample
