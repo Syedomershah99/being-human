@@ -13,10 +13,20 @@ from a blog post about ChatGPT tells.
 Runs locally. Stdlib Python 3, no dependencies, no network calls. Works with
 Claude, ChatGPT, Cursor, Gemini, or anything that accepts a system prompt.
 
-![being-human demo](demo/being-human-demo.gif)
+<p align="center">
+  <a href="demo/being-human-demo.mp4">
+    <img src="demo/being-human-demo.gif" alt="being-human demo" width="560">
+  </a>
+</p>
 
-*[Full video with sound](demo/being-human-demo.mp4) · [subtitles](demo/being-human-demo.srt) ·
-rebuild it yourself with `./demo/build.sh`*
+<p align="center">
+  <em>
+    31 seconds, no narration ·
+    <a href="demo/being-human-demo.mp4">full video with sound</a> ·
+    <a href="demo/being-human-demo.srt">subtitles</a> ·
+    rebuild with <code>./demo/build.sh</code>
+  </em>
+</p>
 
 ---
 
