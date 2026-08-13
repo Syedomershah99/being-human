@@ -157,15 +157,25 @@ mcp-publisher login github
 mcp-publisher publish
 ```
 
-`server.json` is already filled in as `io.github.syedomershah99/being-human`.
-With GitHub auth the `name` **must** start with `io.github.<your-username>/` or
-publishing fails, so fork-and-publish means changing that line.
+`server.json` is filled in as `io.github.Syedomershah99/being-human`, published
+and active. Fork-and-publish means changing that line to your own username.
 
-The namespace is lowercase on purpose. The schema pattern allows capitals, but
-every one of the first 40 names in the live registry is lowercase, which is what
-reverse-DNS convention expects. GitHub URLs stay in their natural casing since
-they're case-insensitive. If a publish is ever rejected on the namespace, that
-line is the one to flip.
+**The namespace is case-sensitive, and it must match your GitHub login exactly.**
+This is worth stating plainly because the obvious inference is wrong. Reverse-DNS
+convention is lowercase, the schema pattern `^[a-zA-Z0-9.-]+/...` permits either,
+and a large sample of live registry names is entirely lowercase -- so lowercase
+looks right. It is not. The token issued by `mcp-publisher login github` grants
+`io.github.<YourExactLogin>/*`, and publishing under any other casing fails:
+
+```
+403 Forbidden: You do not have permission to publish this server.
+You have permission to publish: io.github.Syedomershah99/*
+Attempting to publish: io.github.syedomershah99/being-human
+```
+
+`validate` passes either way -- it checks the schema, not your grant -- so this
+only surfaces at publish time. Use your login's exact casing from the start.
+GitHub URLs elsewhere in the file are genuinely case-insensitive.
 
 Only `name`, `description`, and `version` are required. `packages` is optional,
 which is why the shipped manifest omits it: this server is a single Python file
