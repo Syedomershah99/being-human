@@ -1,0 +1,60 @@
+{
+  "duration": 31.416666666666437,
+  "cues": [
+    {
+      "start": 0.0,
+      "text": "every ai writing tool sounds the same.",
+      "end": 3.65
+    },
+    {
+      "start": 3.65,
+      "text": "the model has no idea who you are.",
+      "end": 5.7
+    },
+    {
+      "start": 5.7,
+      "text": "there's only one fix. tell it.",
+      "end": 7.3500000000000005
+    },
+    {
+      "start": 7.3500000000000005,
+      "text": "it reads the prompts you already wrote.",
+      "end": 11.416666666666776
+    },
+    {
+      "start": 11.416666666666776,
+      "text": "and turns it into instructions with numbers.",
+      "end": 13.666666666666858
+    },
+    {
+      "start": 13.666666666666858,
+      "text": "not \"be concise\". a number you can follow.",
+      "end": 15.316666666666896
+    },
+    {
+      "start": 15.316666666666896,
+      "text": "then it checks a draft twice.",
+      "end": 16.916666666666885
+    },
+    {
+      "start": 16.916666666666885,
+      "text": "generic ai text: caught by one, missed by the other.",
+      "end": 19.266666666666815
+    },
+    {
+      "start": 19.266666666666815,
+      "text": "someone else's clean writing: the exact reverse.",
+      "end": 21.716666666666743
+    },
+    {
+      "start": 21.716666666666743,
+      "text": "neither test catches both. so it runs both.",
+      "end": 23.4666666666667
+    },
+    {
+      "start": 23.4666666666667,
+      "text": "this post scored 31 before. 95 after.",
+      "end": 26.116666666666614
+    }
+  ]
+}

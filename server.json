@@ -7,5 +7,23 @@
   "repository": {
     "url": "https://github.com/Syedomershah99/being-human",
     "source": "github"
-  }
+  },
+  "packages": [
+    {
+      "registryType": "pypi",
+      "identifier": "being-human",
+      "version": "0.1.0",
+      "runtimeHint": "uvx",
+      "transport": {
+        "type": "stdio"
+      },
+      "packageArguments": [
+        {
+          "type": "positional",
+          "value": "mcp",
+          "valueHint": "subcommand"
+        }
+      ]
+    }
+  ]
 }

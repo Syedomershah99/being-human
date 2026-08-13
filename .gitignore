@@ -21,3 +21,8 @@ build/
 .env.*
 *.env
 !.env.sample
+
+# demo render intermediates (the finished mp4/gif/srt are committed)
+demo/media/
+demo/bed.wav
+.venv-demo/

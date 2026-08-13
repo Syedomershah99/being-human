@@ -1,0 +1,43 @@
+1
+00:00:00,000 --> 00:00:03,650
+every ai writing tool sounds the same.
+
+2
+00:00:03,650 --> 00:00:05,700
+the model has no idea who you are.
+
+3
+00:00:05,700 --> 00:00:07,350
+there's only one fix. tell it.
+
+4
+00:00:07,350 --> 00:00:11,417
+it reads the prompts you already wrote.
+
+5
+00:00:11,417 --> 00:00:13,667
+and turns it into instructions with numbers.
+
+6
+00:00:13,667 --> 00:00:15,317
+not "be concise". a number you can follow.
+
+7
+00:00:15,317 --> 00:00:16,917
+then it checks a draft twice.
+
+8
+00:00:16,917 --> 00:00:19,267
+generic ai text: caught by one, missed by the other.
+
+9
+00:00:19,267 --> 00:00:21,717
+someone else's clean writing: the exact reverse.
+
+10
+00:00:21,717 --> 00:00:23,467
+neither test catches both. so it runs both.
+
+11
+00:00:23,467 --> 00:00:26,117
+this post scored 31 before. 95 after.

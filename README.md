@@ -13,6 +13,11 @@ from a blog post about ChatGPT tells.
 Runs locally. Stdlib Python 3, no dependencies, no network calls. Works with
 Claude, ChatGPT, Cursor, Gemini, or anything that accepts a system prompt.
 
+![being-human demo](demo/being-human-demo.gif)
+
+*[Full video with sound](demo/being-human-demo.mp4) · [subtitles](demo/being-human-demo.srt) ·
+rebuild it yourself with `./demo/build.sh`*
+
 ---
 
 ## the problem
