@@ -1,7 +1,7 @@
 {
   "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
   "name": "io.github.syedomershah99/being-human",
-  "description": "Learns how you actually write from your own prompt history, then makes the model write like that. Includes a personal AI-slop detector and a statistical impostor test.",
+  "description": "Learns your writing voice from your own prompt history, then makes the model write like that.",
   "version": "0.1.0",
   "websiteUrl": "https://github.com/Syedomershah99/being-human",
   "repository": {
