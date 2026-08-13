@@ -17,13 +17,17 @@ client to speak first.
 | tool | what it does |
 | --- | --- |
 | `voice_get` | the voice rules, to load before drafting |
-| `voice_score` | score a draft 0-100, with line-level findings |
+| `voice_score` | score a draft 0-100 for AI tells, with line-level findings |
+| `voice_verify` | the impostor test: is this text statistically you? |
 | `voice_status` | is a voiceprint built, and is the corpus big enough to trust |
 | `voice_learn` | build or refresh from history, a ChatGPT export, or your files |
 | `voice_note` | record something measurement can't reach; survives rebuilds |
 | `voice_export` | compile for ChatGPT, Cursor, AGENTS.md, or a raw system prompt |
 
 **Resources** — `voiceprint://current` (markdown), `voiceprint://metrics` (json)
+
+`voice_score` and `voice_verify` catch different failures. A draft has to pass
+both: clean prose by a different hand clears the first and fails the second.
 
 **Prompts** — `write_in_voice`, `check_draft`
 
